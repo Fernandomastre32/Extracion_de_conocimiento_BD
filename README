@@ -1,0 +1,72 @@
+# Proyecto: Extracción de Conocimiento en Base de Datos
+
+## Información del Alumno
+* **Nombre del Alumno:** Fernando Lezama Garcia
+* **Materia:** Extracción del Conocimiento de Base de Datos
+* **Cuatrimestre:** 9B
+
+---
+
+## Descripción General
+Este proyecto consiste en el desarrollo de un flujo completo de Ciencia de Datos aplicado a un entorno académico y profesional. A partir de un dataset público real, se ejecutan fases de auditoría, limpieza, transformación y análisis exploratorio con el fin de descubrir patrones ocultos y estructurar un repositorio bajo las mejores prácticas de desarrollo y documentación en GitHub.
+
+## Objetivo
+Desarrollar un repositorio académico en GitHub que integre: limpieza de datos, análisis descriptivo, visualización de datos, interpretación de resultados, y generación de conocimiento mediante el modelo DIKW, utilizando un dataset público real. 
+
+El repositorio está estructurado para demostrar capacidades en la organización del proyecto, documentación exhaustiva, aplicación de buenas prácticas de código, uso correcto de Git/GitHub, así como la competencia técnica en el análisis e interpretación de datos.
+
+---
+
+## Datasets Utilizados
+El análisis e integración del proyecto se fundamenta en el procesamiento de los siguientes archivos:
+
+* **dataset_sucio_practica.csv:** Utilizado como entorno inicial para aplicar técnicas de auditoría de datos, detección de anomalías, registros duplicados y manejo de valores nulos o inconsistentes.
+* **netflix_titles.csv:** Conjunto de datos público orientado al análisis de contenido (películas y series), ideal para la segmentación por categorías, países y tendencias temporales.
+* **test.csv:** Archivo complementario destinado a la validación de estructuras de datos y pruebas de consistencia en el procesamiento informático.
+* **ventas-por-factura.csv:** Dataset enfocado en transacciones comerciales, óptimo para la identificación de patrones de consumo, análisis de ingresos y comportamiento de clientes.
+
+---
+
+## Herramientas Utilizadas
+* **Entorno de Desarrollo:** Anaconda (Jupyter Notebook / JupyterLab)
+* **Lenguaje de Programación:** Python 3.x
+* **Librerías Clave:**
+  * `pandas` y `numpy`: Empleadas para la manipulación estructurada, limpieza, tratamiento de nulos y transformación de datos.
+  * `matplotlib` y `seaborn`: Utilizadas para el diseño de la visualización estadística, gráficos descriptivos y mapas de calor.
+
+---
+
+## Estructura del Modelo DIKW en el Proyecto
+El flujo de trabajo del repositorio se diseñó con base en la pirámide metodológica de extracción de valor:
+
+1. **Datos (Data):** Carga y exploración de los archivos en su estado bruto, identificando la naturaleza de las variables y las fallas estructurales de origen.
+2. **Información (Information):** Fase de limpieza y ordenamiento. Se da sentido a los datos respondiendo al *qué* y *cuándo* mediante el cálculo de métricas descriptivas tras la depuración.
+3. **Conocimiento (Knowledge):** Integración de gráficos analíticos y matrices de correlación para descubrir el *cómo* se relacionan las variables analizadas.
+4. **Sabiduría (Wisdom):** Interpretación crítica y estratégica de los resultados orientada a la toma de decisiones basada en evidencia.
+
+---
+
+## Capturas e Imágenes de los Análisis
+
+A continuación se presentan las visualizaciones y evidencias clave obtenidas durante el desarrollo del proyecto:
+
+### 1. Auditoría y Calidad de Datos
+![Calidad de Datos](imagenes/calidad_datos.png)
+<img width="1094" height="828" alt="Image" src="https://github.com/user-attachments/assets/49088fbd-c44b-4c88-a549-375a33099714" />
+<img width="832" height="758" alt="Image" src="https://github.com/user-attachments/assets/ea528d4e-5dbd-43e5-806b-84c375e3756f" />
+### 2. Análisis Descriptivo y Comportamiento de Variables
+![Análisis Estadístico](imagenes/analisis_descriptivo.png)
+<img width="1446" height="816" alt="Image" src="https://github.com/user-attachments/assets/ec6b8b0a-1804-4fc3-9654-6abed0d4da45" />
+### 3. Visualización de Correlaciones y Patrones
+![Matriz de Correlación](imagenes/matriz_correlacion.png)
+<img width="1062" height="662" alt="Image" src="https://github.com/user-attachments/assets/f494ed3e-b701-4141-b31f-d3a0b4305e0b" />
+<img width="965" height="678" alt="Image" src="https://github.com/user-attachments/assets/7e345578-83d7-4d03-9b15-8c3c5e76095a" />
+---
+
+## Conclusiones Generales
+
+A partir de la ejecución de este proyecto, se determinan los siguientes hallazgos metodológicos y técnicos:
+
+* **Optimización de Datos (Información):** La aplicación de buenas prácticas de código en la fase de limpieza (particularmente en archivos con alto índice de ruido como *dataset_sucio_practica.csv*) demostró que una depuración rigurosa es indispensable para evitar sesgos en las etapas analíticas posteriores.
+* **Extracción de Valor (Conocimiento):** A través de las visualizaciones generadas, se logró transformar los registros aislados en conocimiento estructurado, identificando correlaciones críticas, estacionalidades en las ventas y tendencias en las preferencias de consumo que no eran visibles en los conjuntos de datos originales.
+* **Gobernanza del Proyecto (Sabiduría):** El uso metodológico del modelo DIKW, respaldado por una arquitectura organizada en GitHub, comprueba que la ciencia de datos no se limita a la programación, sino a la capacidad de documentar, replicar y traducir métricas cuantitativas en conclusiones estratégicas y accionables para el entorno profesional.
